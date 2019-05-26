@@ -168,26 +168,63 @@
 // outer();
 
 //Multi inner function
-function calc(a, b) {
+// function calc(a, b) {
 
-    function sum() {
-        return a + b;
+//     function sum() {
+//         return a + b;
+//     }
+
+//     function sub() {
+//         return a - b;
+//     }
+
+//     function into() {
+//         return a * b;
+//     }
+
+//     function devided() {
+//         return a / b;
+//     }
+
+//     return sum() + sub() + into() + devided();
+// }
+// var result = calc(10, 5);
+// console.log(result);
+// result;
+
+
+// function add(a, b) {
+//     return a + b;
+// }
+// var result = add(20, 30);
+// result;
+
+
+//Inner Function 5/20/2019 class-3
+
+//What work result
+function name(firstName, lastName, gender) {
+    var output;
+    if (gender === 'male') {
+        output = 'Mr ' + firstName + ' ' + lastName;
+    } else if (gender === 'female') {
+        output = 'Ms ' + firstName + ' ' + lastName;
     }
-
-    function sub() {
-        return a - b;
-    }
-
-    function into() {
-        return a * b;
-    }
-
-    function devided() {
-        return a / b;
-    }
-
-    return sum() + sub() + into() + devided();
+    return output;
 }
-var result = calc(10, 5);
+
+var result = name('Md_', 'Hasan Patwary', 'male');
 console.log(result);
-result;
+
+//what work return second example
+function example() {
+    return {
+        name: 'MD_Hasan Patwary',
+        skill: ['html', 'css', 'jquery', 'javascript'],
+        print: function () {
+            console.log(this.name, this.skill);
+        }
+    }
+}
+var object = example();
+object.print();
