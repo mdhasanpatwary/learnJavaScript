@@ -1,4 +1,4 @@
-href attr output 5 / 17 / 2019
+// href attr output 5 / 17 / 2019
 function myFunction() {
     var x = document.getElementById("myAnchor").href;
     document.getElementById("demo").innerHTML = x;

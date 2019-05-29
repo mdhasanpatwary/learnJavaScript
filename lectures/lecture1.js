@@ -1,4 +1,4 @@
-console log function output 5 / 18 / 2019 class-1
+// console log function output 5 / 18 / 2019 class-1
 function getAddition(firstNumber, secondNumber) {
     var result = firstNumber + secondNumber;
     return result;
@@ -12,7 +12,7 @@ function myFunction() {
 }
 myFunction();
 
-Count Vowels
+// Count Vowels
 var count = 0;
 function countVowels(name) {
     for (var i = 0; i < name.length; i++) {
@@ -24,7 +24,7 @@ function countVowels(name) {
 var myName = prompt("enter your name");
 countVowels(myName);
 
-if else statement
+// if else statement
 var z = false;
 if (z) {
     console.log(z);
@@ -63,13 +63,13 @@ console.log('tarana begum');
 console.log('tarana karim');
 console.groupEnd('Group2');
 
-button dom
+// button dom
 
 var button = document.querySelector('#button');
 console.log(button);
 console.dir(button);
 
-javaScript Sum Function
+// javaScript Sum Function
 
 function returnSum(first, second) {
     var sum = first + second;
