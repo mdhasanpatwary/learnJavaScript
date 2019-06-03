@@ -1,6 +1,6 @@
-// Javascript Filter Function Implementation  /  class-11
+// Javascript Filter Function Implementation  /  class-11**
 
-//Example-1
+//Example-1  /  with all lenguage common function*
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
@@ -15,7 +15,7 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 // console.log('newArray = ' + newArr);
 
 
-//Example-2
+//Example-2  /  with Default function*
 
 // var newarr = arr.filter(function(val) {
 //     return val % 2 == 1;
@@ -25,7 +25,7 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
 
-//Example-3  /  Create filter function
+//Example-3  /  Create filter function*
 
 function myFilter(arr, callback) {
     var newarray = [];
