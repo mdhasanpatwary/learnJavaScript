@@ -10,7 +10,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="winload()" id="mainbody">
+
+    <!-- <h1 id="demo"></h1> -->
+    <button id="button" onclick="fun1()">Click Me</button>
+    <button id="button" ondblclick="fun2()">Double Click Me</button>
+    <button id="button" onclick="startInterval()">Start The Interval</button>
+    <button id="button" onclick="removeInterval()">Stop The Interval</button>
+    <button id="button" onclick="dClock()">Display Clock</button>
+    <h1 id="clock"></h1>
 
     <h3>A demonstration of how to access an A element</h3>
 
@@ -20,7 +28,7 @@
 
     <button onclick="link()" id="button">Show Link</button>
 
-    <p id="demo"></p>
+    <!-- <p id="demo"></p> -->
 
     <!-- <div id="bulb-on-off">
         <button type="button" id="off" onclick="">off</button>
@@ -32,8 +40,7 @@
 
     <div class="advertising-block">
         <a href="http://www.prestashop.com/" title="PrestaShop">
-            <img src="http://demo.posthemes.com/pos_beeta/modules/ps_advertising/img/advertising-s1.jpg"
-                alt="PrestaShop" title="PrestaShop">
+            <img src="" alt="PrestaShop" title="PrestaShop">
         </a>
     </div>
 
@@ -63,14 +70,14 @@
 
 
 
-    <!-- <script src="script.js"></script>
-    <script src="lectures/lecture1.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="lectures/lecture1.js"></script>
     <script src="lectures/lecture2.js"></script>
     <script src="lectures/lecture3.js"></script>
     <script src="lectures/lecture4.js"></script>
     <script src="lectures/lecture5.js"></script>
-    <script src="lectures/lecture6.js"></script> -->
-    <script src="lectures/lecture7.js"></script>
+    <script src="lectures/lecture6.js"></script>
+    <script src="lectures/lecture7.js"></script> -->
 
 </body>
 
